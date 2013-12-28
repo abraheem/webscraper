@@ -1,6 +1,7 @@
 {
     "name": "younesherlock/scraper",
     "description": "This is a customizable PHP scraper.",
+    "keywords" : ["scraper", "scraping", "PHP", "freepatentsonline", "content", "harvesting", "mining", "data", "text"],
     "require": {
         "php": ">=5.3",
         "fabpot/goutte": "1.0.*"
