@@ -2,7 +2,9 @@
     "name": "younesherlock/scraper",
     "description": "This is a customizable PHP scraper.",
     "require": {
+        "php": ">=5.3",
         "fabpot/goutte": "1.0.*"
+        
     },
     "authors": [
         {
