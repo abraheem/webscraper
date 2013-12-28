@@ -1,7 +1,6 @@
 <?php
 
-require_once 'goutte.phar';
-require_once __DIR__ . '/src/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
 use Goutte\Client;
 use WebScraper\Scraper;
