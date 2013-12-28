@@ -22,10 +22,12 @@ class Scraper
 		$this->scrapeWebPages($path);
 	}
 
-	static function startScraping(Client $clt, array $opt = null, $path)
+	public static function startScraping(Client $clt, array $opt = NULL, $path)
 	{
-		self::$gscraper = new Scraper($clt, $opt, $path);
-		return self::$gscraper;
+		if (self::$gscraper === NULL) {
+            self::$gscraper = new Scraper($clt, $opt, $path);
+        }
+        return self::$gscraper;
 	}
 
 	private function getSearchLink($page)
