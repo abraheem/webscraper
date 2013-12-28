@@ -8,19 +8,6 @@ use WebScraper\Scraper;
 
 $client = new Client();
 
-// $options = array(
-// 		'domain_name' => 'https://www.google.com/?tbm=pts',
-// 		'source' => 'https://www.google.com/?tbm=pts#',
-// 		'result_link' => 'h3.r a',
-// 		'result_content' => '#intl_patents_v',
-// 		'pageParameter' => 'start',
-// 		'incrementPage' => 10,
-// 		'keywordParameter' => 'q',
-// 		'keyword' => 'rfid',
-// 				);
-
-
-
 // FreePatentsOnline =>
 $options = array(
 		'domain_name' => 'http://www.freepatentsonline.com',
