@@ -1,4 +1,4 @@
-webscraper
+webscraper[![Build Status](https://travis-ci.org/younesherlock/webscraper.png?branch=master)](https://travis-ci.org/younesherlock/webscraper)
 ==========
 
 1. Clone the repo.
